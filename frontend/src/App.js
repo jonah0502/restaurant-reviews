@@ -34,7 +34,7 @@ function App() {
           </li>
           <li className="nav-item" >
             { user ? (
-              <a onClick={logout} className="nav-link" style={{cursor:'pointer'}}>  // when clicked it will run the logout function which we have not written yet. 
+              <a onClick={logout} className="nav-link" style={{cursor:'pointer'}}> 
                 Logout {user.name}
               </a>
             ) : (            
